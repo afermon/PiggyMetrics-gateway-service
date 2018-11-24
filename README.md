@@ -1,6 +1,6 @@
 # Piggy Metrics (Kubernetes) - API Gateway
 
-[![CircleCI](https://circleci.com/gh/afermon/PiggyMetrics-gateway-service.svg?style=svg)](https://circleci.com/gh/afermon/PiggyMetrics-gateway-service) [![codecov](https://codecov.io/gh/afermon/PiggyMetrics-gateway-service/branch/master/graph/badge.svg)](https://codecov.io/gh/afermon/PiggyMetrics-gateway-service) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/afermon/PiggyMetrics-gateway-service/blob/master/LICENCE)
+[![CircleCI](https://circleci.com/gh/afermon/PiggyMetrics-gateway-service.svg?style=svg)](https://circleci.com/gh/afermon/PiggyMetrics-gateway-service) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/afermon/PiggyMetrics-gateway-service/blob/master/LICENCE)
 
 As you can see, there are three core services, which expose external API to client. In a real-world systems, this number can grow very quickly as well as whole system complexity. Actually, hundreds of services might be involved in rendering of one complex webpage.
 
@@ -24,5 +24,6 @@ That means all requests starting with `/notifications` will be routed to Notific
 
 For more information please refer to the main repository [afermon/PiggyMetrics-Kubernetes](https://github.com/afermon/PiggyMetrics-Kubernetes)
 
-## Refereces
+## Credits
+
 * Forked from [sqshq/PiggyMetrics](https://github.com/sqshq/PiggyMetrics)
